@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* Extra Small Devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        background-color: rgb(213, 235, 18);
+    }
+}
+
+/* Small Devices */
+@media only screen and (min-width: 600px) {
+    .container {
+        background-color: rgb(75, 223, 17);
+    }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        background-color: rgb(186, 18, 228);
+    }
+}
+
+/* Large Devices */
+@media only screen and (min-width: 992px) {
+    .container {
+        background-color: rgb(50, 18, 228);
+    }
+}
+
+/* Extra Large Devices */
+@media only screen and (min-width: 1200px) {
+    .container {
+        background-color: rgb(24, 112, 189);
+    }
+}
+
